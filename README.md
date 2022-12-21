@@ -1,7 +1,7 @@
 # ysanitizer 1.0.0
 
-This library is to show a calendar which has some functionalities, like schedule.
-If you want to use this library, you just put the sub-directory "ycalendar" into your project.
+This library which can sanitize the HTML string with JavaScript.
+If you want to use this library, you just put the sub-directory "ysanitizer" into your project.
 
 ## 1. Requirements
 
