@@ -20,11 +20,13 @@
     <p>This is test for the ysanitizer.</p>
 
     <!-- 2. Include the js-file and the css-file which ysanitizer requires. -->
-    <script src="./ycalendar2/ycalendar2.js"></script>
-    <link rel="stylesheet" href="./ycalendar2/styles.css" />
+    <script src="./ysanitizer/ysanitizer.js"></script>
 
     <script>
-        
+        let plain = "1 < 10 < 12 > 6";
+        console.log( "Plain = " + plain );
+        let ret = YSanitizers.sanitize( plain );
+        console.log( "Ret = " + ret );
     </script>
 </body>
 </html>

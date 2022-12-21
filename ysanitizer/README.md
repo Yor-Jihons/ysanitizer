@@ -19,10 +19,10 @@ This library is released under the MIT License. See also [LICENCE which included
 
 ## 6. Changes
 
-2022/11/27 : ver.1.0.0
-    - ycalendar ver.1.0.0 Released.
+2022/12/21 : ver.1.0.0
+    - ysanitizer ver.1.0.0 Released.
 
 ## 7. Contact
 
 Author: Yor-Jihons  
-GitHub: [ycalendar](https://github.com/Yor-Jihons/ysanitizer)  
+GitHub: [ysanitizer](https://github.com/Yor-Jihons/ysanitizer)  
