@@ -3,10 +3,10 @@ import * as Pairs from '../src/pairs';
 
 describe('Test for pairlists', () => {
     test('sample1', () => {
-        let pairList = new PairLists.PairList();
-        let p1 = new Pairs.Pair( "k1", "v1" );
-        let p2 = new Pairs.Pair( "k2", "v2" );
-        let p3 = new Pairs.Pair( "k3", "v3" );
+        let pairList:PairLists.PairList = new PairLists.PairList();
+        let p1:Pairs.Pair = new Pairs.Pair( "k1", "v1" );
+        let p2:Pairs.Pair = new Pairs.Pair( "k2", "v2" );
+        let p3:Pairs.Pair = new Pairs.Pair( "k3", "v3" );
         pairList.add( p1 );
         pairList.add( p2 );
         pairList.add( p3 );
@@ -16,7 +16,7 @@ describe('Test for pairlists', () => {
     });
 
     test('sample2', () => {
-        let pairList = PairLists.createPairList();
+        let pairList:PairLists.PairList = PairLists.createPairList();
         expect( pairList.length() ).toBe( 5 );
         expect( pairList.at( 0 ).getKey() ).toBe( "&" );
         expect( pairList.at( 0 ).getValue() ).toBe( "&amp;" );
